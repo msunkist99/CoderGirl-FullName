@@ -24,7 +24,7 @@ namespace FullName
 
         // TODO: Create a method call FullName that takes the firstName and lastName as parameters.
 
-        private static string FullName(string firstName, string lastName)
+        public static string FullName(string firstName, string lastName)
         {
             string fullName = firstName + " " + lastName;
             return fullName;
